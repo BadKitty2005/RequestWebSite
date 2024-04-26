@@ -79,6 +79,7 @@ if (isset($_POST['submitt'])) {
 ?>
 <div class="forms">
     <form method="post" id="RoundForm">
+        <h1>Заявка на участие в конференции</h1>
         <p>Ваша фамилия: </p>
                         <input type="text" name="Surname" require>
                         <p>Ваше имя: </p>
