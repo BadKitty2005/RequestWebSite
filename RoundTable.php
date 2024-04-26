@@ -59,32 +59,21 @@ if (isset($_POST['sendrmail'])) {
 <div class="forms">
             <form id="ConfForm" enctype="multipart/form-data" method="POST">
                 <h1>Заявка на участие в круглом столе</h1>
-                        <p>Ваша фамилия: </p>
-                        <input type="text" name="Surname" require>
-                        <p>Ваше имя: </p>
-                        <input type="text" name="Name">
-                        <p>Ваше отчество: </p>
-                        <input type="text" name="FathersName">
-                        <p>Место работы: </p>
-                        <input type="text" name="Adress">
-                        <p>Должность: </p>
-                        <input type="text" name="Job">
-                        <p>Ваша дата рождения: </p>
-                        <input type="date" name="Birth">
-                        <p>Город проживания: </p>
-                        <input type="text" name="City">
-                        <p>Тема доклада: </p>
-                        <input type="text" name="Theme">
-                        <p>Ваша ученая степень</p>
-                        <select name="Degree">
-                            <option>Бакалавр</option>
-                            <option>Магистр</option>
-                            <option>Кандидат наук</option>
-                            <option>Доктор наук</option>
-                        </select>
-                        <p>Прикложите файлы(презентация, тезисы доклада, заключение) </p>
-                        <input type="file" id="filein" name="file[]" multiple="multiple"> 
-                        <button class="butstyle" type="submit" id="subbut" name="submitt">Отправить заявку</button>
+        <p>Опишите тематику стола: </p>
+        <input type="text" name="RoundTheme" require>
+        <p>Ваша фамилия: </p>
+        <input type="text" name="Surname" require>
+        <p>Ваше имя: </p>
+        <input type="text" name="Name" require>
+        <p>Ваше отчество: </p>
+        <input type="text" name="FathersName" require>
+        <p>Место работы: </p>
+        <input type="text" name="Adress" require>
+        <p>Должность: </p>
+        <input type="text" name="Job" require>
+        <p>Анотация: </p>
+        <textarea name="Opinion" require></textarea>
+        <button class="butstyle" type="submit" name="sendrmail">Отправить заявку</button>
             </form>
         </div>
 </body>
