@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "Osw"; 
+  src: url("Oswald/Oswald-VariableFont_wght.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face{
+  font-family: "os";
+  src: url("Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "com";
+  src: url("Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+
+body{
+  background-image: url("background.jpg");
+}
+a{
+  font-family: 'com';
+  color: rgb(28, 30, 43);
+}
+.form {
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 10em;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+
+  .form .register-form {
+    display: none;
+  }
+  .form input {
+    font-family: "Verdana", sans-serif;
+    outline: 1;
+    background: #f4f4f4;
+    width: 100%;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  .form button {
+    font-family: "Verdana", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #550eff;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .form button:hover, .form button:active {
+    background: #550eff;
+  }
+  .form .message {
+    margin: 15px 15px 15px 15px;
+    color: #10a7ff;
+    font-size: 14px;
+    font-family: "Verdana";
+  }
+  .form .message a {
+    color: #6dcee1;
+    text-decoration: none;
+  }
+  
+  .form .register-form {
+    display: none;
+  }
+  
+  .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(214, 216, 232);
+    border-radius: 10%;
+    font-family: 'com';
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .enter{
+    display: flex;
+    justify-content: center;
+  }
+
+  .butt{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+  }
+  .loginpage{
+    background-color: rgb(114, 126, 202);
+    background-size: 100%;
+  }
+
+  .clip{
+    margin:0;
+    padding:0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .information:hover{
+    margin:0;
+    padding:0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "com";
+
+}
+
+.forms{
+  display: flex;
+  position: relative;
+  align-self: center;
+  background-color: rgb(213, 239, 249);
+  align-items: center;
+  justify-content: center;
+  border: 4mm ridge rgba(133, 208, 243, 0.6);
+  border-radius: 10%;
+  padding: 10px;
+}
+
+p{
+  font-family: 'com';
+}
+
+.bord{
+  border: 3px solid #1C6EA4;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.butstyle{
+  background-image: linear-gradient(#42A1EC, #0070C9);
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+
+.butstyle:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+.butstyle:hover {
+  background-image: linear-gradient(#51A9EE, #147BCD);
+  border-color: #1482D0;
+  text-decoration: none;
+}
+
+.butstyle:active {
+  background-image: linear-gradient(#3D94D9, #0067B9);
+  border-color: #006DBC;
+  outline: none;
+}
+
+.butstyle:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}
